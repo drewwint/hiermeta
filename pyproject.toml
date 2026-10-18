@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "hiermeta"
+version = "0.1.0"
+description = "Hierarchical Bayesian meta-analysis with moderator evaluation and visualization."
+readme = "README.md"
+requires-python = ">=3.12"
+
+authors = [
+    {name = "Drew E. Winters"},
+]
+
+license = "MIT"
+license-files = ["LICENSE"]
+
+keywords = [
+    "meta-analysis",
+    "Bayesian",
+    "hierarchical models",
+]
+
+# Starting list; confirm against imports in all your modules.
+dependencies = [
+    "numpy",
+    "pandas",
+    "pymc",
+    "pytensor",
+    "arviz",
+    "matplotlib",
+]
+
+
+[tool.setuptools]
+packages = ["hiermeta", "hiermeta.data"]
+
+
+[tool.setuptools.package-dir]
+hiermeta = "code"
+
+
+[tool.setuptools.package-data]
+"hiermeta.data" = ["example_df.csv"]
