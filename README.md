@@ -1,3 +1,8 @@
+<p align="center">
+  <img width="600" height="338" alt="hiermeta-logo-1" src="https://github.com/user-attachments/assets/bfb80e4f-182f-4bfc-b9d0-0533ff5083dc" />
+</p>
+
+
 # hiermeta: Hierarchical Bayesian meta-analysis for Python, with descriptive summaries, moderator evaluation, and plotting.
 
 
