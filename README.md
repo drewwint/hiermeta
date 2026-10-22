@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" height="238" alt="hiermeta-logo-1" src="https://github.com/user-attachments/assets/bfb80e4f-182f-4bfc-b9d0-0533ff5083dc" />
+  <img width="530" height="268" alt="hiermeta-logo-1" src="https://github.com/user-attachments/assets/bfb80e4f-182f-4bfc-b9d0-0533ff5083dc" />
 </p>
 
 
